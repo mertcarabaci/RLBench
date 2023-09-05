@@ -31,7 +31,7 @@ install:
   - pip3 install .
 
   # Gym needed for some of unit tests
-  - pip3 install gym
+  - pip3 install gymnasium
 
   # Go back to RLBench repo
   - cd ../RLBench

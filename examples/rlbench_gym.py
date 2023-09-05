@@ -1,4 +1,4 @@
-import gym
+import gymnasium as gym
 import rlbench.gym
 
 env = gym.make('reach_target-state-v0', render_mode='human')
